@@ -1,6 +1,6 @@
 var express = require("express");
-var middleware = require("./middleware");
 var app = express();
+var middleware = require("./middleware");
 var port = 4000;
 
 app.use(middleware.logger);
